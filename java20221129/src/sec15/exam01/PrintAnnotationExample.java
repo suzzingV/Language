@@ -1,6 +1,6 @@
 package sec15.exam01;
 
-import java.lang.reflect.Method;
+import java.lang.reflect.*;
 
 public class PrintAnnotationExample {
     public static void main(String[] args) {
