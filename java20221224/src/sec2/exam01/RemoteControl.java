@@ -1,3 +1,4 @@
+package sec2.exam01;
 public interface RemoteControl {
     public int MAX_VOLUME = 10; //상수 필드 선언 //초기화 무조건 해야함 //public static final 안 붙여도 자동으로 붙음
     public int MIN_VOLUME = 0;

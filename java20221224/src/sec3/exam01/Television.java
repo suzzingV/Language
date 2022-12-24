@@ -1,4 +1,4 @@
-package sec2.exam02;
+package sec3.exam01;
 
 import sec2.exam01.RemoteControl;
 
