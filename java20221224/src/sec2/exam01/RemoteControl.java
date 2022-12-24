@@ -17,7 +17,7 @@ public interface RemoteControl {
         }
     }
 
-    //정적 메소드 //객체 없어도 실행 가능
+    //정적 메소드 //객체 없어도 실행 가능 //객체마다 가지고 있을 필요 없는 공용의 데이터일때
     static void changeBattery() { 
         System.out.println("건전지를 교환합니다.");
     }
