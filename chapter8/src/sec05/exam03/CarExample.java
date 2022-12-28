@@ -1,6 +1,6 @@
-package sec05.exam02;
+package sec05.exam03;
 
-import sec05.exam01.KumhoTire;
+import sec05.exam02.KumhoTire;
 
 public class CarExample {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package sec05.exam02;
+package sec05.exam03;
 
-import sec05.exam01.*;
+import sec05.exam02.*;
 
 public class Car {
     Tire[] tires = { //인터페이스 배열

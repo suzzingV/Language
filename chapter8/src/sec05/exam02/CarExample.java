@@ -1,4 +1,4 @@
-package sec05.exam01;
+package sec05.exam02;
 
 public class CarExample {
     public static void main(String[] args) {

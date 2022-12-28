@@ -1,4 +1,4 @@
-package sec05.exam01;
+package sec05.exam02;
 
 public class HankookTire implements Tire{
     @Override

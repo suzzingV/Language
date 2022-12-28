@@ -1,4 +1,4 @@
-package sec05.exam01;
+package sec05.exam02;
 
 public class Car {
     Tire frontLeftTire = new HankookTire(); //인터페이스로 자동 타입변환
