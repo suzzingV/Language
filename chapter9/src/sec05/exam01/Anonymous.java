@@ -30,4 +30,8 @@ public class Anonymous {
 
         localVar.wake(); //localVar에는 부모클래스에 있는 것만 사용 가능
     }
+    
+    void method2(Person person) {
+        person.wake();
+    }
 }
