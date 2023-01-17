@@ -16,7 +16,7 @@ public class AccountExample {
             
             System.out.println(message);
             System.out.println();
-            e.printStackTrace(); //예외 추적 후 출력
+            e.printStackTrace(); //예외 추적 후 출력 //Exception의 메소드
         }
     }
 }
