@@ -18,13 +18,12 @@ public class Member {
 
     @Override
     protected Object clone() throws CloneNotSupportedException {
-        Member cloned = (Member) clone();
+        Member cloned = (Member) super.clone(); //Object의 clone()호출
         cloned.scores = Arrays.copyOf(this.scores, this.scores.length); //Arrays.copyOf(복사할 배열, 복사할 배열의 길이)
         cloned.car = new Car(this.car.model);
         return cloned;
     }
 
-    @Override
     public Member getMember() {
         Member cloned = null;
         try {
