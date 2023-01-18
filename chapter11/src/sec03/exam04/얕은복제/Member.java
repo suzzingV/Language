@@ -1,4 +1,4 @@
-package sec03.exam04;
+package sec03.exam04.얕은복제;
 
 public class Member implements Cloneable { //객체복제하려면 원본 객체는 반드시 Cloneable인터페이스 명시적 구현 해야한다.(클래스 설계자가 복제를 허용한다는 표시)
     //인터페이스 구현 안하면 예외 발생 -> 예외 처리 해줘야함

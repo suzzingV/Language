@@ -1,4 +1,4 @@
-package sec03.exam04;
+package sec03.exam04.얕은복제;
 
 public class MemberExample {
     public static void main(String[] args) {

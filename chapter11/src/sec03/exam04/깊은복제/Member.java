@@ -2,7 +2,7 @@ package sec03.exam04.깊은복제;
 
 import java.util.Arrays;
 
-public class Member {
+public class Member implements Cloneable {
     public String name;
     public int age;
     public int[] scores;
