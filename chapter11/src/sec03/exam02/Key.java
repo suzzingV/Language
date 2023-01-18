@@ -18,8 +18,10 @@ public class Key {
         return false;
     }
 
+    /*
     @Override
     public int hashCode(){ //hashCode 재정의 해줘야 number같으면 같은 객체로 인식
         return number;
     }
+    */
 }
