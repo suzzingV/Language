@@ -20,7 +20,7 @@ public class HashCodeExample {
 
         @Override
         public int hashCode() {
-            return Objects.hash(sno, name);
+            return Objects.hash(sno, name); //이거 없으면 다른 객체로 인식해서 다른 해시코드 반환
         }
     }
 }
