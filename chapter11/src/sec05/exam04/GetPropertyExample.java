@@ -19,7 +19,7 @@ public class GetPropertyExample {
         System.out.println("-----------------------------");
         Properties props = System.getProperties(); //System.getProperties(): 모든 (키, 값) 쌍을 저장하고 있는 Properties 객체 리턴
         Set keys = props.keySet(); //properties 객체의 keySet메소드 쓰면 키만으로 구성된 Set객체 얻을 수 있다
-        for(Object objKey : keys) {
+        for(Object objKey : keys) { //각각의 키가 어떤 형태인지 모르므로 Object
             String key = (String) objKey;
             String value = System.getProperty(key);
             System.out.println("[ " + key + " ] " + value);
