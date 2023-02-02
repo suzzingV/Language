@@ -1,10 +1,11 @@
 package sec06.exam01;
 
 import java.lang.Class;
+import sec03.exam04.깊은복제.*;
 
 public class ClassExample {
     public static void main(String[] args) {
-        Car car = new Car();
+        Car car = new Car("현대");
         Class clazz1 = car.getClass(); //Class객체 얻기 //Object 클래스가 가지고 있는 getClass()메소드 이용
         //Object는 모든 클래스의 최상위 클래스이므로 모든 클래스에서 getClass() 호출 가능
         //해당 클래스로 객체를 생성했을 때만 사용 가능
