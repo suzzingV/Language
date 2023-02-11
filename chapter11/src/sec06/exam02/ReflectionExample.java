@@ -14,7 +14,7 @@ public class ReflectionExample {
 
         System.out.println("[생성자 정보]");
         Constructor[] constructors = clazz.getDeclaredConstructors(); //클래스에 선언된 생성자 배열
-        //상속된 멤버는 가져오지 않음 상속된 멤버 볼라면 getFields(), getMethod(): public 멤버만 가져옴
+        //상속된 멤버는 가져오지 않음 //상속된 멤버도 가져올라면 getMethods, getFields: public만 가져옴
         for(Constructor constructor : constructors) {
             System.out.print(constructor.getName() + "(");
             Class[] parameters = constructor.getParameterTypes(); //getParameterTypes: 생성자의 매개변수 타입 배열
