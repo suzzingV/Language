@@ -1,4 +1,4 @@
-package sec07.exam02;
+package sec07.exam01;
 
 import java.io.IOException;
 import java.lang.String;
