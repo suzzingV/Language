@@ -4,9 +4,10 @@ import java.io.UnsupportedEncodingException;
 
 public class StringGetBytesExample {
     public static void main(String[] args) {
-        String str = "안녕하세요";
+        String str = "녕하세요";
 
         byte[] bytes1 = str.getBytes(); //getBytes(): 기본 문자셋으로 인코딩된 바이트 배열 리턴
+        //System.out.println("jvm 기본 인코딩 정보: " + System.getProperty("file.encoding"));
         System.out.println("bytes1.length: " + bytes1.length);
         String str1 = new String(bytes1); //기본 문자셋 이용해 디코딩
         System.out.println("bytes1 -> String: " + str1);
