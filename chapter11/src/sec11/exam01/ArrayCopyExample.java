@@ -14,6 +14,7 @@ public class ArrayCopyExample {
 
         char[] arr4 = new char[arr1.length];
         System.arraycopy(arr1, 0, arr4, 0, arr1.length); //System.arraycopy(arr1, i, arr2, j, l): arr1의 i번쨰 인덱스부터 l만큼을 arr2의 j번째 인덱스부터 붙여넣음
+        //밀리는 게 아니라 대체됨
         for(int i = 0; i < arr4.length; i++) {
             System.out.println("arr4[" + i + "]=" + arr4[i]);
         }
