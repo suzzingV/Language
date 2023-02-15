@@ -30,14 +30,14 @@ public class DateTimeCompareExample {
         long remainMinute = startDateTime.until(endDateTime, ChronoUnit.MINUTES);
         long remainSecond = startDateTime.until(endDateTime, ChronoUnit.SECONDS);
 
-
+        
         remainYear = ChronoUnit.YEARS.between(startDateTime, endDateTime); //전체 차이
         remainMonth = ChronoUnit.MONTHS.between(startDateTime, endDateTime);
         remainDay = ChronoUnit.DAYS.between(startDateTime, endDateTime);
         remainHour = ChronoUnit.HOURS.between(startDateTime, endDateTime);
         remainMinute = ChronoUnit.MINUTES.between(startDateTime, endDateTime);
         remainSecond = ChronoUnit.SECONDS.between(startDateTime, endDateTime);
-
+        
         System.out.println("남은 해: " + remainYear);
         System.out.println("남은 달: " + remainMonth);
         System.out.println("남은 일: " + remainDay);
