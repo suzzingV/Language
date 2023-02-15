@@ -11,7 +11,7 @@ public class DateTimeInfoExample {
         //int+String = String
         strDateTime += now.getMonthValue() + "월 ";
         strDateTime += now.getDayOfMonth() + "일 ";
-        System.out.println(now.getMonth());
+        //System.out.println(now.getMonth());
         //getMonth()는 Month열거값 반환
         strDateTime += now.getDayOfWeek() + " "; //DayOfWeek 반환
         strDateTime += now.getHour() + "시 ";
