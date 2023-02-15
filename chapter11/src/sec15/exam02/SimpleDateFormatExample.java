@@ -7,7 +7,7 @@ public class SimpleDateFormatExample {
     public static void main(String[] args) {
         Date now = new Date();
 
-        SimpleDateFormat sdf = new SimpleDateFormat("y-MM-dd"); //SimpleDateFormat: 날자 형식 클래스
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd"); //SimpleDateFormat: 날자 형식 클래스
         System.out.println(sdf.format(now)); //안에 Date클래스 넣음 //문자열
         
         sdf = new SimpleDateFormat("yyyy년 MM월 dd일");
