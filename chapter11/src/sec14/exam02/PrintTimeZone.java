@@ -1,5 +1,6 @@
 package sec14.exam02;
 
+import java.util.Calendar;
 import java.util.TimeZone;
 
 public class PrintTimeZone {
@@ -8,5 +9,8 @@ public class PrintTimeZone {
         for(String id : availableIDs) {
             System.out.println(id);
         }
+
+        TimeZone timeZone = TimeZone.getTimeZone("Canada/Pacific");
+        Calendar now = Calendar.getInstance(timeZone);
     }
 }
