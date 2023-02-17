@@ -2,7 +2,7 @@ package sec02.exam01;
 
 import java.awt.*;
 
-public class BeepPrintExample {
+public class BeepPrintExample1 {
     public static void main(String[] args) {
         Toolkit toolkit = Toolkit.getDefaultToolkit();
 
@@ -15,5 +15,6 @@ public class BeepPrintExample {
             System.out.println("띵");
             try { Thread.sleep(500); } catch(Exception e) {}
         }
+        //순차적으로 진행됨
     }
 }
