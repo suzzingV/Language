@@ -1,4 +1,4 @@
-package sec04.exam01;
+package sec04.exam02;
 
 public class MainThreadExample{
     public static void main(String[] args) {

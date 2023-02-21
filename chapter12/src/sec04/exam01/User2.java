@@ -1,4 +1,4 @@
-package sec02.exam04;
+package sec04.exam01;
 
 public class User2 extends Thread {
     private Calculator calculator;
