@@ -5,7 +5,7 @@ public class CalcThread extends Thread {
         setName(name);
     }
 
-    public run() {
+    public void run() {
         for(int i = 0; i < 2000000000; i++) {}
         System.out.println(getName());
     }
