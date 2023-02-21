@@ -10,6 +10,6 @@ public class MainThreadExample{
 
         User2 user2 = new User2();
         user2.setCalculator(calculator);
-        user2.start();
+        user2.start(); //user1 스레드 멈춘동안 실행
     }
 }
