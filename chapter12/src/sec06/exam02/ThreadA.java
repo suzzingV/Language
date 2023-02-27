@@ -1,6 +1,6 @@
 package sec06.exam02;
 
-public class ThreadA {
+public class ThreadA extends Thread {
     public boolean work = true;
     public boolean stop = false;
 
