@@ -4,7 +4,7 @@ public class DataBox {
     private String data;
 
     public synchronized String getData() {
-        if(data == null) {
+        if(this.data == null) {
             try {
                 wait();
             } catch(InterruptedException e) {}
@@ -17,7 +17,7 @@ public class DataBox {
     }
 
     public synchronized void setData(String data) {
-        if(data != null) {
+        if(this.data != null) {
             try {
                 wait();
             } catch (InterruptedException e) {}

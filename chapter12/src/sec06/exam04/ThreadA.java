@@ -12,6 +12,5 @@ public class ThreadA extends Thread {
         for(int i = 0; i < 10; i++) {
             workObject.methodA();
         }
-        System.out.println("ThreadA end");
     }
 }
