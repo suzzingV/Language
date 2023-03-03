@@ -10,7 +10,6 @@ public class DaemonExample {
             Thread.sleep(3000);
         } catch(InterruptedException e) {
         }
-        
         System.out.println("메인 스레드 종료");
     }
 }
