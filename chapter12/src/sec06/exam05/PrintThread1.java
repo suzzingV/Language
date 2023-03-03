@@ -1,7 +1,7 @@
 package sec06.exam05;
 
 public class PrintThread1 extends Thread {
-    private boolean stop;
+    private boolean stop; //초기화 안하면 기본값 false
 
     public void setStop(boolean stop) {
         this.stop = stop;
