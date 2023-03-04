@@ -30,11 +30,13 @@ public class ResultByRunnableExample {
         Runnable task1 = new Task(result);
         Runnable task2 = new Task(result);
         Future<Result> future1 = executorService.submit(task1, result); //task1을 수행하고 result를 반환하겠다
+        //result에 담기는게 아님 텅 비어있음
         Future<Result> future2 = executorService.submit(task2, result);
 
         try {
             result = future1.get();
             result = future2.get(); //두 가지 작업 결과 취합 //리턴값은 두번째 매개값으로 준 객체와 동일한데 차이점은 스레드 처리 결과가 내부에 저장되어 있다는 것
+            //다 끝나고 하는 거라 둘중 하나만 해도 결과는 같음
             System.out.println("[처리 결과] " + result.accumValue);
             System.out.println("[작업 처리 완료]");
         } catch (Exception e) {
