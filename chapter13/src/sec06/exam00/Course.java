@@ -1,3 +1,5 @@
+package sec06.exam00;
+
 public class Course<T> {
     private String name;
     private T[] students;
@@ -11,7 +13,9 @@ public class Course<T> {
         return name;
     }
 
-    public String add (T t) {
+    public T[] getStudents() { return students; };
+
+    public void add (T t) {
         for(int i = 0; i < students.length; i++) {
             if(students[i] == null) {
                 students[i] = t;
