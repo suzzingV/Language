@@ -10,3 +10,5 @@ public class Product<T, M> {
     public void setKind(T t) { this.kind = kind; };
     public void setModel(M m) { this.model = model; };
 }
+
+class Tv {}
