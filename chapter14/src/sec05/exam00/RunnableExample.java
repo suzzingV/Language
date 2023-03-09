@@ -1,3 +1,4 @@
+package exam00;
 public class RunnableExample {
     public static void main(String[] args) {
         Runnable runnable = () -> {
