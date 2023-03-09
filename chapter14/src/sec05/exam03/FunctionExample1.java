@@ -12,14 +12,14 @@ public class FunctionExample1 {
 
     public static void printString(Function<Student, String> function) {
         for(Student student: list) {
-            System.out.println(function.apply(student) + " ");
+            System.out.print(function.apply(student) + " ");
         }
         System.out.println();
     }
 
     public static void printInt(ToIntFunction<Student> function) {
         for(Student student: list) {
-            System.out.println(function.applyAsInt(student) + " ");
+            System.out.print(function.applyAsInt(student) + " ");
         }
         System.out.println();
     }
