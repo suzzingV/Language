@@ -15,7 +15,7 @@ public class FunctionExample2 {
         for(Student student : list) {
             sum += function.applyAsInt(student);
         }
-        double avg = (double)sum / list.size();
+        double avg = (double)sum / list.size(); //sum 캐스팅안해주면 소수점 버려짐
         return avg;
     }
 
