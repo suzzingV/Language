@@ -12,7 +12,7 @@ public class Student {
     public boolean equals(Object obj) {
         if(obj instanceof Student) {
             Student student = (Student) obj;
-            return (sno == student.sno) && (student.equals(name));
+            return (sno == student.sno) && (student.name.equals(name));
         } else {
             return false;
         }
