@@ -18,9 +18,10 @@ public class Member {
             return false;
         }
     }
-
+    /* 
     @Override
     public int hashCode() {
         return name.hashCode() + age;
     }
+    */
 }
