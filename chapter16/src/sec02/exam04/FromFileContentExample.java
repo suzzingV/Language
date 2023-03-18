@@ -7,7 +7,7 @@ import java.nio.charset.*;
 
 public class FromFileContentExample {
     public static void main(String[] args) throws IOException {
-        Path path = Paths.get("src/sec02/exam04/linedata.txt");
+        Path path = Paths.get("C:/Users/skylim/Documents/ÀÚ¹Ù ½´Âôºñ/java/chapter16/src/sec02/exam04/linedata.txt");
         Stream<String> stream;
 
         stream = Files.lines(path, Charset.defaultCharset());
