@@ -8,10 +8,10 @@ import sec11.exam01.Student;
 public class GroupingByExample {
     public static void main(String[] args) {
         List<Student> totalList = Arrays.asList(
-            new Student("홍길동", 10, Student.Sex.MALE),
-            new Student("김수애", 6, Student.Sex.FEMALE),
-            new Student("신용권", 10, Student.Sex.MALE),
-            new Student("박수미", 6, Student.Sex.FEMALE)
+            new Student("홍길동", 10, Student.Sex.MALE, Student.City.Seoul),
+            new Student("김수애", 6, Student.Sex.FEMALE, Student.City.Pusan),
+            new Student("신용권", 10, Student.Sex.MALE, Student.City.Pusan),
+            new Student("박수미", 6, Student.Sex.FEMALE, Student.City.Seoul)
         );
 
         Map<Student.Sex, List<Student>> mapBySex = totalList.stream()
@@ -39,7 +39,7 @@ public class GroupingByExample {
         mapByCity.get(Student.City.Seoul).stream()
             .forEach(s -> System.out.print(s + " "));
         
-        System.out.println("\n[부산] ");
+        System.out.print("\n[부산] ");
         mapByCity.get(Student.City.Pusan).stream()
             .forEach(s -> System.out.print(s + " "));
     }
