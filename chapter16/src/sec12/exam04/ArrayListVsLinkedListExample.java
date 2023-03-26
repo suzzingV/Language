@@ -17,7 +17,7 @@ public class ArrayListVsLinkedListExample {
     public static void main(String[] args) {
         List<Integer> arrayList = new ArrayList<Integer>();
         List<Integer> linkedList = new LinkedList<Integer>();
-        for(int i = 0; i < 10; i++) { //처리 개수 적으면 순차가 더 빠름
+        for(int i = 0; i < 1000000; i++) { //처리 개수 적으면 순차가 더 빠름
             arrayList.add(i);
             linkedList.add(i);
         }
