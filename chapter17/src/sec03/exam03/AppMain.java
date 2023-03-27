@@ -14,7 +14,7 @@ public class AppMain extends Application {
         HBox hbox = new HBox();
         hbox.setPadding(new Insets(50, 10, 10, 50));
         Button button = new Button();
-        button.setPrefSize(120,100);   
+        button.setPrefSize(100,100);   
         
         /*
         HBox hbox = new HBox();
