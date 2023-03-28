@@ -1,0 +1,14 @@
+<StackPane xmlns:fx = "http://javafx.com/fxml">
+    <children>
+        <ImageView fitWidth = "500" fitHeight = "300" > //가로 세로비 상관 없이 고정 길이
+            <image>
+                <Image url = "@images/snow.jpg" />
+            </image>
+        </ImageView>
+        <ImageView preserveRatio = "true"> //가로비 세로비 유지
+            <image>
+                <Image url = "@images/duke.gif" />
+            </image>
+        </ImageView>
+    </children>
+</StackPane>
