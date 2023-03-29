@@ -1,0 +1,23 @@
+<BorderPane xmlns:fx="http://javafx.com/fxml" prefHeight = "200.0" prefWidth = "300.0" >
+    <top>
+        <Toolbar>
+            <items>
+                <Button text = "Button" />
+                <Button text = "Button" />
+            </items>
+        </Toolbar>
+    </top>
+    <center>
+        <TextArea/>
+    </center>
+    <bottom>
+        <BorderPane>
+            <center>
+                <TextField/>
+            </center>
+            <right>
+                <Button text = "Button"/>
+            </right>
+        </BorderPane>
+    </bottom>
+</BorderPane>
