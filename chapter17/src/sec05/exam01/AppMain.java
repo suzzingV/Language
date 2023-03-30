@@ -6,7 +6,6 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.layout.HBox;
 import javafx.stage.Stage;
-import javafx.scene.control.ButtonBase;
 import javafx.event.*;
 
 public class AppMain extends Application{
@@ -18,7 +17,7 @@ public class AppMain extends Application{
         root.setSpacing(20);
 
         Button btn1 = new Button("버튼1");
-        btn1.setOnAction(new EventHandler<ActionEvent>() {
+        btn1.setOnAction(new EventHandler<ActionEvent>() { //setOnAction: Button 눌렀을 때
             @Override
             public void handle(ActionEvent event) {
                 System.out.println("버튼1 클릭");
@@ -33,7 +32,7 @@ public class AppMain extends Application{
 
         primaryStage.setTitle("AppMain");
         primaryStage.setScene(scene);
-        primaryStage.setOnCloseRequest(event -> System.out.println("종료 클릭"));
+        primaryStage.setOnCloseRequest(event -> System.out.println("종료 클릭")); //setOnCloseRequest: 닫기 버튼 눌렀을 때
         primaryStage.show();
     }
     public static void main(String[] args) {
