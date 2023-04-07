@@ -6,7 +6,7 @@ public class SystemOutExample {
     public static void main(String[] args) throws Exception {
         OutputStream os = System.out;
 
-        for(int b = 48; b < 58; b++) {
+        for(byte b = 48; b < 58; b++) {
             os.write(b);
         }
         os.write(10);
