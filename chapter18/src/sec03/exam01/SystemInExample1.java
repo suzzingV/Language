@@ -2,7 +2,7 @@ package sec03.exam01;
 
 import java.io.*;
 
-public class SystemInExample {
+public class SystemInExample1 {
     public static void main(String[] args) throws Exception {
         System.out.println("== 메뉴 ==");
         System.out.println("1. 예금 조회");
