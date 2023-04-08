@@ -8,9 +8,9 @@ public class InputStreamReaderExample {
 
         int readCharNo;
         char[] cbuf = new char[100];
-        while( (readCharNo = reader.read(cbuf)) != -1) {
-            String data = new String(cbuf, 0, readCharNo);
-            System.out.println(data);
+        while( reader.read(cbuf) != -1) {
+            //String data = new String(cbuf, 0, readCharNo);
+            //System.out.println(data);
         }
 
         reader.close();

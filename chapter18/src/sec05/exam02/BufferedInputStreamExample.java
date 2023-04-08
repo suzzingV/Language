@@ -18,7 +18,7 @@ public class BufferedInputStreamExample {
 
         FileInputStream fis2 = new FileInputStream(
             "C:\\Users\\skylim\\Documents\\자바 슈찡비\\java\\chapter18\\src\\sec05\\exam02\\xiao.jpg"
-        );
+        ); //fis1은 이미 다 읽어서 따로 만들어줘야 함
         BufferedInputStream bis = new BufferedInputStream(fis2);
         start = System.currentTimeMillis();
         while(bis.read() != -1) {}
