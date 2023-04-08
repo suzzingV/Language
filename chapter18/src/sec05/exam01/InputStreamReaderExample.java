@@ -1,3 +1,4 @@
+package exam01;
 import java.io.*;
 
 public class InputStreamReaderExample {
