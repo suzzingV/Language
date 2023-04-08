@@ -8,10 +8,10 @@ public class InputStreamReaderExample {
 
         int readCharNo;
         char[] cbuf = new char[100];
-        while( reader.read(cbuf) != -1) {
-            //String data = new String(cbuf, 0, readCharNo);
-            //System.out.println(data);
-        }
+        while( (readCharNo = reader.read(cbuf)) != -1) {
+            String data = new String(cbuf, 0, readCharNo);
+            System.out.println(data);
+        } //엔터도 문자이기 때문에 엔터 누른다고 읽을 게 끝났다고 취급하지 않아서 안 끝남
 
         reader.close();
     }
