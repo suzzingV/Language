@@ -17,6 +17,5 @@ public class PrintExample {
         System.out.printf("오늘은 %tY년 %tm월 %td일 입니다\n", now, now, now);
         System.out.printf("오늘은 %1$tY년 %1$tm월 %1$td일 입니다\n", now);
         System.out.printf("오늘은 %1$tH시 %1$tM분 %1$tS초 입니다.\n", now);
-        System.out.printf("%2$6s %1$s", "장윤석", "임수진");
     }
 }
