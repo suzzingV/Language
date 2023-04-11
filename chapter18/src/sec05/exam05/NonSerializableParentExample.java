@@ -17,6 +17,7 @@ public class NonSerializableParentExample {
         Child v = (Child) ois.readObject();
         System.out.println("field1: " + v.field1);
         System.out.println("field2: " + v.field2);
-        ois.close(); fis.close();
+        //ois.close(); fis.close();
+        fis.close();
     }
 }
