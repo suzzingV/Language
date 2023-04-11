@@ -21,7 +21,7 @@ public class DataInputOutputStreamExample {
         DataInputStream dis = new DataInputStream(fis);
 
         for(int i = 0; i < 2; i++) {
-            String name = dis.readUTF();
+            String name = dis.readUTF(); //문자열 UTF로 쓰고 읽음
             double score = dis.readDouble();
             int order = dis.readInt();
             System.out.println(name + " " + score + " " + order);
