@@ -2,7 +2,7 @@ package exam04;
 
 import java.io.*;
 
-public class Main {
+public class PrintStreamExample {
     public static void main(String[] args) throws IOException {
         FileOutputStream fos = new FileOutputStream("C:\\Users\\skylim\\Documents\\ÀÚ¹Ù ½´Âôºñ\\file.txt");
         PrintStream ps = new PrintStream(fos);
