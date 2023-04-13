@@ -10,10 +10,10 @@ public class ServerExample {
             serverSocket = new ServerSocket();
             serverSocket.bind(new InetSocketAddress("localhost", 5001));
             while(true) {
-                System.out.println("[¿¬°á ±â´Ù¸²]");
+                System.out.println("[ì—°ê²° ê¸°ë‹¤ë¦¼]");
                 Socket socket = serverSocket.accept();
                 InetSocketAddress isa = (InetSocketAddress) socket.getRemoteSocketAddress();
-                System.out.println("[¿¬°á ¼ö¶ôÇÔ] : " + isa.getHostName());
+                System.out.println("[ì—°ê²° ìˆ˜ë½í•¨] : " + isa.getHostName());
 
                 byte[] bytes = null;
                 String message = null;
@@ -22,14 +22,14 @@ public class ServerExample {
                 bytes = new byte[100];
                 int readByteCount = is.read(bytes);
                 message = new String(bytes, 0, readByteCount, "UTF-8");
-                System.out.println("[µ¥ÀÌÅÍ ¹Ş±â ¼º°ø] " + message);
+                System.out.println("[ë°ì´í„° ë°›ê¸° ì„±ê³µ] " + message);
 
                 OutputStream os = socket.getOutputStream();
                 message = "Hello Client";
                 bytes = message.getBytes("UTF-8");
                 os.write(bytes);
                 os.flush();
-                System.out.println("[µ¥ÀÌÅÍ º¸³»±â ¼º°ø]");
+                System.out.println("[ë°ì´í„° ë³´ë‚´ê¸° ì„±ê³µ]");
 
                 is.close();
                 os.close();

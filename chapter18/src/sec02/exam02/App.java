@@ -1,14 +1,15 @@
 package sec02.exam02;
+
 import java.io.*;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        OutputStream os = new FileOutputStream("C:/Users/skylim/Documents/ÀÚ¹Ù ½´Âôºñ/test.txt");
+        OutputStream os = new FileOutputStream("C:\\Users\\skylim\\Documents\\ìë°” ìŠˆì°¡ë¹„\\test.txt");
         byte[] data = "ABC".getBytes();
         System.out.println(data[0]);
         System.out.println((char)data[0]);
         for(int i = 0; i < data.length; i++) {
-	    os.write(data[i]); //"A" "B" "C" ÇÏ³ª¾¿ Ãâ·Â //1¹ÙÀÌÆ®¸¸ ´ã±â¹Ç·Î byte´ã±è
+	    os.write(data[i]); //"A" "B" "C" ï¿½Ï³ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ //1ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½Ç·ï¿½ byteï¿½ï¿½ï¿½
     }
 }
 }
