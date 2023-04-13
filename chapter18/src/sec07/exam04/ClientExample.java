@@ -1,4 +1,3 @@
-package sec07.exam04;
 
 import java.io.*;
 import java.net.*;
@@ -8,9 +7,9 @@ public class ClientExample {
         Socket socket = null;
         try {
             socket = new Socket();
-            System.out.println("[¿¬°á ¿äÃ»]");
+            System.out.println("[ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ã»]");
             socket.connect(new InetSocketAddress("localhost", 5001));
-            System.out.println("[¿¬°á ¼º°ø]");
+            System.out.println("[ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½]");
 
             byte[] bytes = null;
             String message = null;
@@ -20,13 +19,13 @@ public class ClientExample {
             bytes = message.getBytes();
             os.write(bytes);
             os.flush();
-            System.out.println("[µ¥ÀÌÅÍ º¸³»±â ¼º°ø]");
+            System.out.println("[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½]");
 
             InputStream is = socket.getInputStream();
             bytes = new byte[100];
             int readByteCount = is.read(bytes);
             message = new String(bytes, 0, readByteCount, "UTF-8");
-            System.out.println("[µ¥ÀÌÅÍ ¹Þ±â ¼º°ø] : " + message);
+            System.out.println("[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Þ±ï¿½ ï¿½ï¿½ï¿½ï¿½] : " + message);
 
             os.close();
             is.close();
