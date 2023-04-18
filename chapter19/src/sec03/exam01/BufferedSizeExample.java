@@ -5,9 +5,9 @@ import java.nio.*;
 public class BufferedSizeExample {
     public static void main(String[] args) {
         ByteBuffer directBuffer = ByteBuffer.allocateDirect(200 * 1024 * 1024);
-        System.out.println("´ÙÀÌ·ºÆ® ¹öÆÛ°¡ »ı¼ºµÇ¾ú½À´Ï´Ù.");
+        System.out.println("ë‹¤ì´ë ‰íŠ¸ ë²„í¼ê°€ ìƒì„±ë˜ì—ˆìŠµë‹ˆë‹¤.");
 
         ByteBuffer nonDirectBuffer = ByteBuffer.allocate(200* 1024 * 1024);
-        System.out.println("³Í´ÙÀÌ·ºÆ® ¹öÆÛ°¡ »ı¼ºµÇ¾ú½À´Ï´Ù.");
+        System.out.println("ë„Œë‹¤ì´ë ‰íŠ¸ ë²„í¼ê°€ ìƒì„±ë˜ì—ˆìŠµë‹ˆë‹¤.");
     }
 }
