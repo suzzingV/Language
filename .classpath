@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="chapter10/src"/>
+	<classpathentry kind="src" path="chapter11/src"/>
+	<classpathentry kind="src" path="chapter12/src"/>
+	<classpathentry kind="src" path="chapter13/src"/>
+	<classpathentry excluding="sec05/" kind="src" path="chapter14/src"/>
+	<classpathentry kind="src" path="chapter14/src/sec05"/>
+	<classpathentry kind="src" path="chapter15/src"/>
+	<classpathentry kind="src" path="chapter16/src"/>
+	<classpathentry kind="src" path="chapter17/src"/>
+	<classpathentry excluding="sec05/" kind="src" path="chapter18/src"/>
+	<classpathentry kind="src" path="chapter18/src/sec05"/>
+	<classpathentry kind="src" path="chapter19/src"/>
+	<classpathentry kind="src" path="chapter8/src"/>
+	<classpathentry kind="src" path="chapter9/src"/>
+	<classpathentry excluding="RunStatementExample/|Hello/|VariableScopeExample/" kind="src" path="java20221102"/>
+	<classpathentry kind="src" path="java20221102/Hello"/>
+	<classpathentry kind="src" path="java20221102/RunStatementExample"/>
+	<classpathentry kind="src" path="java20221102/VariableScopeExample"/>
+	<classpathentry kind="src" path="java20221103"/>
+	<classpathentry kind="src" path="java20221109"/>
+	<classpathentry kind="src" path="java20221120"/>
+	<classpathentry excluding="EnumMethodExample/src/" kind="src" path="java20221121"/>
+	<classpathentry kind="src" path="java20221121/EnumMethodExample/src"/>
+	<classpathentry kind="src" path="java20221122"/>
+	<classpathentry kind="src" path="java20221126/Calculator/src"/>
+	<classpathentry kind="src" path="java20221126/Computer/src"/>
+	<classpathentry kind="src" path="java20221127/Calculator/src"/>
+	<classpathentry kind="src" path="java20221127/CalculatorOver/src"/>
+	<classpathentry kind="src" path="java20221127/CalculatorStatic/src"/>
+	<classpathentry kind="src" path="java20221127/Car/src"/>
+	<classpathentry kind="src" path="java20221127/CarOut/src"/>
+	<classpathentry kind="src" path="java20221127/Caution/src"/>
+	<classpathentry kind="src" path="java20221127/Instance/src"/>
+	<classpathentry kind="src" path="java20221127/Singleton/src"/>
+	<classpathentry kind="src" path="java20221127/Television/src"/>
+	<classpathentry kind="src" path="java20221128/Earth/src"/>
+	<classpathentry kind="src" path="java20221128/Person/src"/>
+	<classpathentry kind="src" path="java20221129/src"/>
+	<classpathentry kind="src" path="java20221130/src"/>
+	<classpathentry kind="src" path="java20221201/src"/>
+	<classpathentry kind="src" path="java20221202/src"/>
+	<classpathentry kind="src" path="java20221222/src"/>
+	<classpathentry kind="src" path="java20221223/src"/>
+	<classpathentry kind="src" path="java20221224/src"/>
+	<classpathentry kind="src" path="java20221225/src"/>
+	<classpathentry kind="output" path="chapter13/bin"/>
+</classpath>
