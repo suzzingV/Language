@@ -58,6 +58,7 @@ public class AsynchronousFileChannelReadExample {
 			fileChannel.read(byteBuffer, 0, attachment, completionHandlernew);
 		}
 		
+		Thread.sleep(1000);
 		executorService.shutdown();
 	}
 }
