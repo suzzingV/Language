@@ -25,6 +25,7 @@ public class ClientExample {
 			
 			byteBuffer = ByteBuffer.allocate(100);
 			int byteCount = socketChannel.read(byteBuffer);
+			byteBuffer.flip();
 			String message = charset.decode(byteBuffer).toString();
 			System.out.println("[데이터 받기 성공]: " + message);
 		} catch (Exception e) {}
