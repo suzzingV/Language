@@ -31,7 +31,6 @@
 /ContinueExample/
 /DenyLogicOperatorExample/
 /DoWhileExample/
-/EnumMethodExample.class
 /EnumMethodExample/
 /EnumWeekExample/
 /FieldInitValue/
@@ -43,7 +42,6 @@
 /FromIntToDouble/
 /FromIntToFloat/
 /GarbageValueExample/
-/Hello.class
 /IfDiceExample/
 /IfElseExample/
 /IfElseIfElseExample/
@@ -61,7 +59,6 @@
 /OperationsPromotionExample/
 /OverflowExample/
 /PromotionExample/
-/RunStatementExample.class
 /SignOperatorExample/
 /StringConcatExample/
 /StringEqualsExample/
@@ -71,7 +68,6 @@
 /SwitchNoBreakExample/
 /SwitchStringExample/
 /VariableExample/
-/Week.class
 /WhileKeyControlExample/
 /WhilePrintFrom1To10Example/
 /WhileSumFrom1To100Example/
@@ -123,9 +119,13 @@
 /ComputerExample.class
 /Earth.class
 /EarthExample.class
+/EnumMethodExample.class
+/Hello.class
 /Person.class
 /PersonExample.class
+/RunStatementExample.class
 /Singleton.class
 /SingletonExample.class
 /Television.class
 /TelevisionExample.class
+/Week.class
